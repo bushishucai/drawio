@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="第 1 页" id="rgwFNiHghhANI89tVdpM">
-    <mxGraphModel dx="4187" dy="2652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1932" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,22 +77,27 @@
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EhMjkwyOG2z3wr5U3yRt-22" target="EhMjkwyOG2z3wr5U3yRt-75">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1040" y="510" />
-              <mxPoint x="1040" y="575" />
+              <mxPoint x="1010" y="715" />
+              <mxPoint x="1010" y="640" />
+              <mxPoint x="1150" y="640" />
+              <mxPoint x="1150" y="575" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-22" value="&lt;font&gt;XDES&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="810" y="494" width="170" height="30" as="geometry" />
+          <mxGeometry x="810" y="700" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xr_M1dK8QN54nfAdVbEc-6" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="EhMjkwyOG2z3wr5U3yRt-23" target="xr_M1dK8QN54nfAdVbEc-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-23" value="IBUF_BITMAP" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="810" y="524" width="170" height="30" as="geometry" />
+          <mxGeometry x="810" y="730" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-24" value="... ..." style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="810" y="554" width="170" height="30" as="geometry" />
+          <mxGeometry x="810" y="760" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-25" value="extend256结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="835" y="464" width="100" height="30" as="geometry" />
+          <mxGeometry x="835" y="670" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-26" value="Segment ID" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1540" y="805" width="170" height="30" as="geometry" />
@@ -349,31 +354,31 @@
           <mxGeometry x="1720" y="495" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-119" value="FREE" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="805" width="170" height="30" as="geometry" />
+          <mxGeometry x="1870" y="710" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-120" value="FREE_FRAG" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="835" width="170" height="30" as="geometry" />
+          <mxGeometry x="1870" y="740" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-121" value="FULL_FRAG" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="865" width="170" height="30" as="geometry" />
+          <mxGeometry x="1870" y="770" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-122" value="FSEG" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="895" width="170" height="30" as="geometry" />
+          <mxGeometry x="1870" y="800" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-124" value="区的四种状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#eeeeee;" vertex="1" parent="1">
-          <mxGeometry x="1915" y="775" width="100" height="30" as="geometry" />
+          <mxGeometry x="1905" y="680" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-125" value="空闲区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="805" width="60" height="30" as="geometry" />
+          <mxGeometry x="2080" y="710" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-126" value="有空闲页的碎片区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2068" y="835" width="120" height="30" as="geometry" />
+          <mxGeometry x="2058" y="740" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-127" value="没有空闲页的碎片区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2063" y="865" width="130" height="30" as="geometry" />
+          <mxGeometry x="2053" y="770" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-128" value="附属于某个段的区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2068" y="895" width="120" height="30" as="geometry" />
+          <mxGeometry x="2058" y="800" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-130" value="属于表空间的FREE_FRAG链表基节点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1720" y="175" width="230" height="30" as="geometry" />
@@ -383,6 +388,15 @@
         </mxCell>
         <mxCell id="EhMjkwyOG2z3wr5U3yRt-133" value="属于表空间的FREE链表基节点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1720" y="145" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xr_M1dK8QN54nfAdVbEc-1" value="记录区下64个页的使用情况" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="925" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xr_M1dK8QN54nfAdVbEc-4" value="页面未被加载到内存时，暂存修改信息" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="920" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xr_M1dK8QN54nfAdVbEc-5" value="IBUF_BITMAP页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="890" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
